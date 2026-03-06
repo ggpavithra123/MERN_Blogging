@@ -31,7 +31,7 @@ const connectDB = async () => {
 
 // Middlewares
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:5174", credentials: true }));
+app.use(cors({ origin: "https://mern-blogging-ten.vercel.app", credentials: true }));
 app.use(cookieParser());
 
 // Serve static files
